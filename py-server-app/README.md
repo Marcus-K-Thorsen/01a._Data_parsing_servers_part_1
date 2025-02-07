@@ -1,32 +1,40 @@
 # The initital setup
 ```bash
- $ npm init -y
- $ npm install fs yaml fast-xml-parser csv-parser
+ $ poetry init -n
+ $ poetry install --no-root
+ $ poetry shell
+ $ poetry add pyyaml
+ $ poetry add xmltodict
+ $ poetry add pandas
 ```
-Add key-value pair "type": "module" in 'package.json'.
 
 # Install
 ```bash
  $ cd <project_directory>
- $ npm install
+ $ poetry install
 ```
 
 # Usage
 ```bash
-$ node index.js
+ $ poetry shell
+ $ poetry run python main.py
+ $ deactivate
 ```
+
 
 ### Explanation
 
 - **Initial Setup:** This section includes the commands you used to set up the project before pushing it to GitHub.
 - **Install:** This section includes the commands to install the dependencies after cloning the project from GitHub.
-- **Usage:** This section includes the commands to run the project.
+- **Usage:** This section includes the commands to run the project, including activating and deactivating the virtual environment.
+- **Activating and Deactivating the Virtual Environment:** This section provides specific commands to activate and deactivate the Poetry virtual environment.
 
 This structure ensures that anyone cloning the project can easily follow the steps to set up, install dependencies, and run the project.
 ### Explanation
 
 - **Initial Setup:** This section includes the commands you used to set up the project before pushing it to GitHub.
 - **Install:** This section includes the commands to install the dependencies after cloning the project from GitHub.
-- **Usage:** This section includes the commands to run the project.
+- **Usage:** This section includes the commands to run the project, including activating and deactivating the virtual environment.
+- **Activating and Deactivating the Virtual Environment:** This section provides specific commands to activate and deactivate the Poetry virtual environment.
 
 This structure ensures that anyone cloning the project can easily follow the steps to set up, install dependencies, and run the project.

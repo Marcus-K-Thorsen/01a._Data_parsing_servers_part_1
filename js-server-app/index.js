@@ -38,5 +38,9 @@ console.log(xmlPerson.greet());
 
 console.log("............................................");
 console.log("CSV FILE CONTENT:");
-const something = parseCsv()
-console.log(something);
+
+const csvPerson = parseCsv()
+console.log(csvPerson);
+console.log(csvPerson.greet());
+
+console.log("............................................");

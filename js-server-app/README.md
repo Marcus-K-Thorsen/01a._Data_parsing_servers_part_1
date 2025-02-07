@@ -12,5 +12,5 @@ Add key-value pair "type": "module" in 'package.json'.
 
 # Usage
 ```
-$ npm run start
+$ node index.js
 ```

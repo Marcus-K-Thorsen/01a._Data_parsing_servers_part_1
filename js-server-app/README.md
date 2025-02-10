@@ -18,14 +18,7 @@ $ node index.js
 
 ### Explanation
 
-- **Initial Setup:** This section includes the commands you used to set up the project before pushing it to GitHub.
-- **Install:** This section includes the commands to install the dependencies after cloning the project from GitHub.
-- **Usage:** This section includes the commands to run the project.
-
-This structure ensures that anyone cloning the project can easily follow the steps to set up, install dependencies, and run the project.
-### Explanation
-
-- **Initial Setup:** This section includes the commands you used to set up the project before pushing it to GitHub.
+- **Initial Setup:** This section includes the commands you used to set up the project before initially pushing it to GitHub.
 - **Install:** This section includes the commands to install the dependencies after cloning the project from GitHub.
 - **Usage:** This section includes the commands to run the project.
 

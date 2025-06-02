@@ -25,7 +25,7 @@ def parse_csv() -> Person | list[Person]:
         persons.append(Person(**person_data))
     
     # Uncomment the following line to return a list of Person objects
-    # return persons'
+    # return persons
     
     # Return a single Person object
     return persons[0]

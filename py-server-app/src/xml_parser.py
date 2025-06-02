@@ -17,6 +17,7 @@ def parse_xml() -> Person:
         raise ValueError("No person data found in the XML file.")
     
     #print("Parsed person ID:", parsed_person_data.get("@id", None))
+    #print("Parsed XML Person:", parsed_person_data)
     
     person_data = {
         "name": parsed_person_data.get("name", ""),

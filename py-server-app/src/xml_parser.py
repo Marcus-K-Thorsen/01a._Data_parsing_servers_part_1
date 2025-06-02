@@ -16,6 +16,8 @@ def parse_xml() -> Person:
     if not parsed_person_data and not isinstance(parsed_person_data, dict):
         raise ValueError("No person data found in the XML file.")
     
+    #print("Parsed person ID:", parsed_person_data.get("@id", None))
+    
     person_data = {
         "name": parsed_person_data.get("name", ""),
         "weight": parsed_person_data.get("weight", 0.0),
